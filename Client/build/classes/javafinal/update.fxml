@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="657.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafinal.FXMLDocumentController">
+   <children>
+      <Label layoutX="9.0" layoutY="14.0" prefHeight="92.0" prefWidth="535.0" text="Update your data..." />
+      <Label layoutX="27.0" layoutY="119.0" prefHeight="57.0" prefWidth="202.0" text="Last donation date:" />
+      <Label layoutX="27.0" layoutY="199.0" prefHeight="39.0" prefWidth="79.0" text="Email:" />
+      <Label layoutX="27.0" layoutY="283.0" prefHeight="39.0" prefWidth="118.0" text="Phone number:" />
+      <Label layoutX="27.0" layoutY="356.0" prefHeight="39.0" prefWidth="85.0" text="Address:" />
+      <TextField layoutX="246.0" layoutY="132.0" prefHeight="31.0" prefWidth="283.0" />
+      <TextField layoutX="229.0" layoutY="203.0" prefHeight="31.0" prefWidth="283.0" />
+      <TextField layoutX="222.0" layoutY="291.0" prefHeight="31.0" prefWidth="283.0" />
+      <TextField layoutX="198.0" layoutY="376.0" prefHeight="31.0" prefWidth="283.0" />
+      <Button fx:id="upto" layoutX="340.0" layoutY="546.0" mnemonicParsing="false" onAction="#updating" prefHeight="31.0" prefWidth="124.0" text="Update" />
+      <Button fx:id="backup" layoutX="50.0" layoutY="546.0" mnemonicParsing="false" onAction="#update" prefHeight="31.0" prefWidth="124.0" text="Back" />
+   </children>
+</AnchorPane>

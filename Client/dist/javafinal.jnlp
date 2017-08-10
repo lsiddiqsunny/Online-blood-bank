@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="javafinal.jnlp">
+  <information>
+    <title>javafinal</title>
+    <vendor>test</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="javafinal.jar" size="254258" download="eager" />
+    <jar href="lib\activation.jar" size="55147" download="eager" />
+    <jar href="lib\gdata-core-10.jar" size="1036459" download="eager" />
+    <jar href="lib\gdata-spreadsheet-30.jar" size="51629" download="eager" />
+    <jar href="lib\google-collect-10-rc1.jar" size="548821" download="eager" />
+    <jar href="lib\mail.jar" size="462098" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="javafinal" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafinal.Javafinal"  name="javafinal" />
+  <update check="always"/>
+</jnlp>

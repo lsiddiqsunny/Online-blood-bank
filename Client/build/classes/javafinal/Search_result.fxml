@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="556.0" prefWidth="812.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafinal.FXMLDocumentController">
+   <children>
+      <Label layoutX="18.0" layoutY="34.0" prefHeight="64.0" prefWidth="337.0" text="Search Result">
+         <font>
+            <Font size="39.0" />
+         </font></Label>
+      <Label layoutX="24.0" layoutY="98.0" prefHeight="43.0" prefWidth="771.0" text="Name-----------------Address----------------------------------------Blood Group----------------------Last Donation" />
+      <Button fx:id="backsearch" layoutX="17.0" layoutY="486.0" mnemonicParsing="false" onAction="#searching" prefHeight="31.0" prefWidth="132.0" text="Back" />
+      <Button fx:id="searchagain" layoutX="258.0" layoutY="430.0" mnemonicParsing="false" onAction="#search_again" text="Search again" />
+      <TextField fx:id="sbox2" layoutX="20.0" layoutY="430.0" prefHeight="31.0" prefWidth="224.0" />
+      <Label fx:id="labelsearch" layoutX="24.0" layoutY="139.0" prefHeight="278.0" prefWidth="740.0" />
+   </children>
+</AnchorPane>

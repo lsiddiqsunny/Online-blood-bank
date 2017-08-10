@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="641.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafinal.FXMLDocumentController">
+   <children>
+      <Label layoutX="27.0" layoutY="38.0" prefHeight="69.0" prefWidth="343.0" text="About" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="17.0" AnchorPane.topAnchor="38.0">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Pane layoutX="14.0" layoutY="123.0" prefHeight="427.0" prefWidth="357.0" AnchorPane.bottomAnchor="91.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="123.0" />
+      <Button fx:id="backabout" layoutX="53.0" layoutY="586.0" mnemonicParsing="false" onAction="#about" text="Back" AnchorPane.bottomAnchor="24.0" />
+   </children>
+</AnchorPane>

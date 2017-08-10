@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="839.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafinal.FXMLDocumentController">
+   <children>
+      <Label layoutX="13.0" layoutY="169.0" prefHeight="64.0" prefWidth="457.0" text="Donor's Profile" textFill="#63b81a">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label fx:id="lname" layoutX="10.0" layoutY="244.0" prefHeight="47.0" prefWidth="401.0">
+         <font>
+            <Font size="31.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="388.0" prefHeight="47.0" prefWidth="101.0" text="Blood group:" />
+      <Label fx:id="lage" layoutX="93.0" layoutY="320.0" prefHeight="47.0" prefWidth="285.0" />
+      <Label layoutX="16.0" layoutY="446.0" prefHeight="47.0" prefWidth="111.0" text="Address:" />
+      <Label layoutX="16.0" layoutY="500.0" prefHeight="47.0" prefWidth="111.0" text="Email address:" />
+      <Label layoutX="17.0" layoutY="552.0" prefHeight="47.0" prefWidth="118.0" text="Phone Number: " />
+      <Label layoutX="14.0" layoutY="603.0" prefHeight="47.0" prefWidth="124.0" text="Last dononation:" />
+      <Button fx:id="up" layoutX="14.0" layoutY="690.0" mnemonicParsing="false" onAction="#update" prefHeight="31.0" prefWidth="200.0" text="Update profile" />
+      <Button fx:id="logout" layoutX="311.0" layoutY="757.0" mnemonicParsing="false" onAction="#log_out" prefHeight="31.0" prefWidth="124.0" text="Log out" />
+      <Button fx:id="help2" layoutX="15.0" layoutY="757.0" mnemonicParsing="false" onAction="#helping2" prefHeight="31.0" prefWidth="124.0" text="Help" />
+      <Button fx:id="ab2" layoutX="167.0" layoutY="757.0" mnemonicParsing="false" onAction="#about2" prefHeight="31.0" prefWidth="124.0" text="About" />
+      <Button fx:id="wantblood2" layoutX="228.0" layoutY="690.0" mnemonicParsing="false" onAction="#want_blood2" prefHeight="31.0" prefWidth="206.0" text="Want Blood?" />
+      <ImageView fitHeight="150.0" fitWidth="392.0" layoutX="10.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true"> <image>
+              <Image url="img/Donate-Blood-Save-Life-10-Beautiful-Drawings-Pictures-on-Blood-Donation-6.jpg" />
+      </image>
+      </ImageView>
+      <Label layoutX="18.0" layoutY="333.0" prefHeight="31.0" prefWidth="61.0" text="Age:" />
+      <Label fx:id="lgroup" layoutX="138.0" layoutY="401.0" prefHeight="31.0" prefWidth="61.0" />
+      <Label layoutX="138.0" layoutY="459.0" />
+      <Label fx:id="ladd" layoutX="149.0" layoutY="446.0" prefHeight="47.0" prefWidth="285.0" />
+      <Label fx:id="lemail" layoutX="183.0" layoutY="508.0" prefHeight="40.0" prefWidth="256.0" />
+      <Label fx:id="lphone" layoutX="169.0" layoutY="556.0" prefHeight="40.0" prefWidth="217.0" />
+      <Label fx:id="ldate" layoutX="203.0" layoutY="603.0" prefHeight="40.0" prefWidth="217.0" />
+   </children>
+</AnchorPane>

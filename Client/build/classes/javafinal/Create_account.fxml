@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="639.0" prefWidth="463.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafinal.FXMLDocumentController">
+   <children>
+      <Button fx:id="backaccount" layoutX="23.0" layoutY="556.0" mnemonicParsing="false" onAction="#create_account" text="Back" />
+      <Button fx:id="create1" layoutX="268.0" layoutY="556.0" mnemonicParsing="false" onAction="#createa" text="Create now" />
+      <TextField fx:id="c2" layoutX="211.0" layoutY="144.0" prefHeight="31.0" prefWidth="216.0" />
+      <TextField fx:id="c3" layoutX="205.0" layoutY="205.0" prefHeight="31.0" prefWidth="222.0" />
+      <TextField fx:id="c4" layoutX="197.0" layoutY="258.0" prefHeight="31.0" prefWidth="245.0" />
+      <TextField fx:id="c5" layoutX="205.0" layoutY="317.0" prefHeight="31.0" prefWidth="222.0" />
+      <TextField fx:id="c6" layoutX="206.0" layoutY="370.0" prefHeight="31.0" prefWidth="207.0" />
+      <TextField fx:id="c7" layoutX="211.0" layoutY="427.0" prefHeight="31.0" prefWidth="216.0" />
+      <TextField fx:id="c1" layoutX="229.0" layoutY="59.0" />
+      <Label layoutX="23.0" layoutY="59.0" prefHeight="31.0" prefWidth="164.0" text="User name:" />
+      <Label layoutX="19.0" layoutY="100.0" prefHeight="31.0" prefWidth="164.0" text="Password:" />
+      <Label layoutX="18.0" layoutY="141.0" prefHeight="37.0" prefWidth="150.0" text="Full name:" />
+      <Label layoutX="18.0" layoutY="202.0" prefHeight="37.0" prefWidth="150.0" text="Email:" />
+      <Label layoutX="23.0" layoutY="258.0" prefHeight="31.0" prefWidth="157.0" text="Phone number:" />
+      <Label layoutX="11.0" layoutY="317.0" prefHeight="31.0" prefWidth="164.0" text="Address:" />
+      <Label layoutX="11.0" layoutY="367.0" prefHeight="37.0" prefWidth="164.0" text="Blood group:" />
+      <Label layoutX="12.0" layoutY="419.0" prefHeight="46.0" prefWidth="136.0" text="Last donation date:" />
+      <Label layoutX="21.0" layoutY="485.0" prefHeight="31.0" prefWidth="118.0" text="Age:" />
+      <TextField fx:id="c8" layoutX="211.0" layoutY="485.0" prefHeight="31.0" prefWidth="216.0" />
+      <PasswordField fx:id="p1" layoutX="211.0" layoutY="100.0" prefHeight="31.0" prefWidth="216.0" />
+      <Label fx:id="lbl2" layoutX="48.0" layoutY="608.0" prefHeight="31.0" prefWidth="362.0" />
+      <Label layoutX="20.0" layoutY="5.0" prefHeight="37.0" prefWidth="412.0" text="Create an account">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
