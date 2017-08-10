@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.FXMLDocumentController">
+   <children>
+      <Button fx:id="backsub" layoutX="26.0" layoutY="509.0" mnemonicParsing="false" onAction="#new_sub" prefHeight="31.0" prefWidth="127.0" text="Back" />
+      <Label layoutX="14.0" layoutY="18.0" prefHeight="63.0" prefWidth="459.0" text="New Subscription Request">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="26.0" layoutY="96.0" prefHeight="382.0" prefWidth="440.0" />
+      <Button layoutX="346.0" layoutY="509.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="127.0" text="Add All" />
+      <Button layoutX="183.0" layoutY="509.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="127.0" text="Button" />
+   </children>
+</AnchorPane>
