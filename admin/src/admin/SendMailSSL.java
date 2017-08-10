@@ -26,9 +26,9 @@ public class SendMailSSL {
       String to = To;
 
    
-      String from = "onlinebloodb@gmail.com";
-      final String username = "onlinebloodb";
-      final String password = "bloodbank12345";
+      String from = "*****@gmail.com"; //your gmail id
+      final String username = "your user name";
+      final String password = "your password";
 
 
       String host = "smtp.gmail.com";
